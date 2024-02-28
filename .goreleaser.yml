@@ -6,8 +6,6 @@ builds:
   - binary: nomad-events-sink.bin
     id: nomad-events-sink
     goos:
-      - windows
-      - darwin
       - linux
     goarch:
       - amd64
